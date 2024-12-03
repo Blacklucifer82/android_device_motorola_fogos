@@ -6,3 +6,8 @@
 
 PRODUCT_MAKEFILES := \
     $(LOCAL_DIR)/pixelage_fogos.mk
+    
+COMMON_LUNCH_CHOICES := \
+    pixelage_fogos-userdebug \
+    pixelage_fogos-user \
+    pixelage_fogos-eng    
