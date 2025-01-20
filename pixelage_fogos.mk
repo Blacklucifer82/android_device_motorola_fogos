@@ -13,6 +13,8 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 $(call inherit-product, device/motorola/fogos/device.mk)
 
 # Inherit some common Pixelage stuff.
+TARGET_FACE_UNLOCK_SUPPORTED := true
+PIXELAGE_MAINTAINER := Sourabh
 $(call inherit-product, vendor/pixelage/config/common_full_phone.mk)
 
 PRODUCT_NAME := pixelage_fogos
